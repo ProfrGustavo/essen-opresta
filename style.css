@@ -7,8 +7,8 @@ body {
     background: linear-gradient(90deg, #000000, #737373);
     color: white;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: flex-end; /* Alinha o conteúdo à direita */
+    align-items: center; /* Centraliza verticalmente */
     text-align: center;
 }
 
@@ -18,6 +18,19 @@ body {
     padding: 20px;
     background: rgba(0, 0, 0, 0.5);
     border-radius: 10px;
+}
+
+/* Estilo para a div .chat */
+.chat {
+    width: 30%; /* Ocupa 30% da largura do site */
+    margin: 2% 0; /* Margem superior e inferior de 2% */
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    position: fixed; /* Fixa a div no canto direito */
+    right: 0; /* Alinha à direita */
+    top: 50%; /* Centraliza verticalmente */
+    transform: translateY(-50%); /* Ajusta o posicionamento vertical */
 }
 
 h1 {
