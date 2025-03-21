@@ -43,6 +43,6 @@
 }
 
 .rodapesuper {
-    height: 15vh; /* 5% da altura da viewport */
+    height: 5vh; /* 5% da altura da viewport */
     background-color: rgb(80, 77, 77); /* Cor de fundo preta */
 }
