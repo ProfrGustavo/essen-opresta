@@ -38,7 +38,7 @@
 }
 .imagem {
     position: absolute; /* Posiciona a imagem absolutamente dentro do rodapé */
-    top: 50%; /* Centraliza verticalmente */
+    top: 100%; /* Centraliza verticalmente */
     left: 5%; /* 5% de distância da margem esquerda */
     transform: translateY(-50%); /* Ajusta o centro vertical */
 }
