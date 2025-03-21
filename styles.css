@@ -9,7 +9,7 @@
 .topo {
     height: 15vh; /* 15% da altura da viewport */
     background-color: beige;
-   
+    position: relative; /* Permite que a imagem seja posicionada em relação a esta div */
 }
 
 /* Estilo para o restante da página */
@@ -25,7 +25,7 @@
     border-radius: 50%; /* Torna a imagem circular */
     overflow: hidden; /* Garante que a imagem não ultrapasse os limites do círculo */
     position: absolute; /* Posiciona a imagem absolutamente */
-    top: 15%; /* Coloca a imagem no final da div .topo */
+    top:15%; /* Coloca a imagem no final da div .topo */
     left: 50%; /* Centraliza horizontalmente */
     transform: translate(-50%, -50%); /* Ajusta o posicionamento para o centro exato */
 }
