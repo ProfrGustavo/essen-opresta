@@ -1,44 +1,35 @@
-/* Estilo para o body com gradiente linear */
-body {
+/* Reset básico */
+* {
     margin: 0;
     padding: 0;
-    height: 100vh;
-    font-family: Arial, sans-serif;
-    background: linear-gradient(90deg, #000000, #737373);
-    color: white;
+    box-sizing: border-box;
+}
+
+/* Estilo para o topo da página */
+.topo {
+    height: 5vh; /* 5% da altura da viewport */
+    background-color: beige;
+}
+
+/* Estilo para o restante da página */
+.conteudo {
+    height: 95vh; /* 95% da altura da viewport */
+    background-color: lightblue;
     display: flex;
-    justify-content: flex-end; /* Alinha o conteúdo à direita */
-    align-items: center; /* Centraliza verticalmente */
-    text-align: center;
+    justify-content: center;
+    align-items: center;
 }
 
-/* Estilo para o conteúdo principal */
-.content {
-    max-width: 800px;
-    padding: 20px;
-    background: rgba(0, 0, 0, 0.5);
-    border-radius: 10px;
+/* Estilo para a imagem circular */
+.imagem-circular {
+    width: 150px; /* Tamanho da imagem */
+    height: 150px; /* Tamanho da imagem */
+    border-radius: 50%; /* Torna a imagem circular */
+    overflow: hidden; /* Garante que a imagem não ultrapasse os limites do círculo */
 }
 
-/* Estilo para a div .chat */
-.chat {
-    width: 30%; /* Ocupa 30% da largura do site */
-    margin: 2% 0; /* Margem superior e inferior de 2% */
-    padding: 20px;
-    background: rgba(0, 0, 0, 0.5);
-    border-radius: 10px;
-    position: fixed; /* Fixa a div no canto direito */
-    right: 0; /* Alinha à direita */
-    top: 50%; /* Centraliza verticalmente */
-    transform: translateY(-50%); /* Ajusta o posicionamento vertical */
-}
-
-h1 {
-    font-size: 2.5em;
-    margin-bottom: 20px;
-}
-
-p {
-    font-size: 1.2em;
-    line-height: 1.6;
+.imagem-circular img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Garante que a imagem cubra todo o espaço do círculo */
 }
