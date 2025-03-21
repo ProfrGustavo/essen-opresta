@@ -9,7 +9,7 @@
 .topo {
     height: 15vh; /* 15% da altura da viewport */
     background-color: beige;
-    position: relative; /* Permite que a imagem seja posicionada em relação a esta div */
+   
 }
 
 /* Estilo para o restante da página */
