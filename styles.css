@@ -25,7 +25,7 @@
     border-radius: 50%; /* Torna a imagem circular */
     overflow: hidden; /* Garante que a imagem não ultrapasse os limites do círculo */
     position: absolute; /* Posiciona a imagem absolutamente */
-    top: 100%; /* Coloca a imagem no final da div .topo */
+    top: 15%; /* Coloca a imagem no final da div .topo */
     left: 50%; /* Centraliza horizontalmente */
     transform: translate(-50%, -50%); /* Ajusta o posicionamento para o centro exato */
 }
