@@ -37,6 +37,23 @@
     object-fit: cover; /* Garante que a imagem cubra todo o espaço do círculo */
 }
 
+.imagem-circular {
+    width: 150px; /* Tamanho da imagem */
+    height: 150px; /* Tamanho da imagem */
+    border-radius: 5%; /* Torna a imagem circular */
+    overflow: hidden; /* Garante que a imagem não ultrapasse os limites do círculo */
+    position: absolute; /* Posiciona a imagem absolutamente */
+    top:15%; /* Coloca a imagem no final da div .topo */
+    left: 5%; /* Centraliza horizontalmente */
+    transform: translate(-50%, -50%); /* Ajusta o posicionamento para o centro exato */
+}
+
+.imagem img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Garante que a imagem cubra todo o espaço do círculo */
+}
+
 .rodape {
     height: 15vh; /* 15% da altura da viewport */
     background-color: black; /* Cor de fundo preta */
