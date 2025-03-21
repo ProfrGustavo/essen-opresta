@@ -7,7 +7,7 @@
 
 /* Estilo para o topo da página */
 .topo {
-    height: 5vh; /* 5% da altura da viewport */
+    height: 15vh; /* 5% da altura da viewport */
     background-color: beige;
 }
 
