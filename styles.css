@@ -53,6 +53,7 @@
 .rodape {
     height: 15vh; /* 15% da altura da viewport */
     background-color: black; /* Cor de fundo preta */
+    position: relative; /* Permite posicionar a imagem dentro desta div */
 }
 
 .rodapesuper {
