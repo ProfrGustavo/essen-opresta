@@ -7,17 +7,15 @@
 
 /* Estilo para o topo da página */
 .topo {
-    height: 15vh; /* 5% da altura da viewport */
+    height: 15vh; /* 15% da altura da viewport */
     background-color: beige;
+    position: relative; /* Permite que a imagem seja posicionada em relação a esta div */
 }
 
 /* Estilo para o restante da página */
 .conteudo {
-    height: 95vh; /* 95% da altura da viewport */
+    height: 85vh; /* 85% da altura da viewport */
     background-color: lightblue;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 /* Estilo para a imagem circular */
@@ -26,6 +24,10 @@
     height: 150px; /* Tamanho da imagem */
     border-radius: 50%; /* Torna a imagem circular */
     overflow: hidden; /* Garante que a imagem não ultrapasse os limites do círculo */
+    position: absolute; /* Posiciona a imagem absolutamente */
+    top: 100%; /* Coloca a imagem no final da div .topo */
+    left: 50%; /* Centraliza horizontalmente */
+    transform: translate(-50%, -50%); /* Ajusta o posicionamento para o centro exato */
 }
 
 .imagem-circular img {
